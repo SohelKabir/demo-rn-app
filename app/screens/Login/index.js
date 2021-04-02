@@ -7,18 +7,9 @@ import * as loginActions from 'app/actions/loginActions';
 import styles from './styles';
 
 export default function Login() {
-  const id = useSelector(state => state.loginReducer.id);
-  const dispatch = useDispatch();
-  const onLogin = () => dispatch(loginActions.requestLogin('test', '1234'));
-
   return (
     <View style={styles.container}>
-      <View style={styles.container}>
-        <Text style={styles.login}>Login Status : {id}</Text>
-        <Button icon="login" mode="outlined" onPress={onLogin}>
-          Login
-        </Button>
-      </View>
+      <Text>Login</Text>
     </View>
   );
 }

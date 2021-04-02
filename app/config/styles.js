@@ -4,7 +4,7 @@
  */
 const AppStyles = {
   color: {
-    COLOR_PRIMARY: '#2ec7ab',
+    COLOR_PRIMARY: '#e50000',
     COLOR_SECONDARY: '#111',
     COLOR_WHITE: '#FFFFFF',
     COLOR_BLACK: '#000000',
